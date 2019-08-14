@@ -1,0 +1,49 @@
+.rootStyle {
+  background-color: #f4ca3f;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 5%;
+}
+
+.image1 {
+  width: 40%;
+  margin: 10% 30% !important;
+}
+
+.image2 {
+  width: 20%;
+  float: left;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.secondTitle {
+  color: #f5f6fa;
+  float: left;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.comment {
+  text-align: left;
+  font-size: 1.2em;
+  color: #4d4f5c;
+  margin: 0 7%;
+  word-break: break-all;
+}
+
+.comment div span {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.start {
+  color: #FFFFFF;
+  font-size: 1.4em;
+}

@@ -1,0 +1,88 @@
+.modal-body * {
+    text-transform: unset;
+}
+
+#postModal {
+    position: relative;
+}
+
+#postModal .modal-body {
+    padding: 1% 2% 5%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#postModal .modal-body .activityTypeGroup {
+    margin: 0 0 5%;
+}
+
+#postModal .modal-body .activityTypeGroup button {
+    height: 80px;
+    width: 100%;
+    margin: 3% 0;
+}
+
+#postModal .modal-body .activityTypeGroup img {
+    width: 30%;
+}
+
+#postModal .modal-body #postModalTitle {
+    margin: 2% 0 0;
+}
+
+#postModal .modal-body .question {
+    margin: 2% 3% 3%;
+}
+
+#postModal .modal-body .title1 {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#postModal .modal-body .description {
+    min-height: 100px;
+    width: 100%;
+    max-lines: 5;
+    /*overflow: hidden*/
+}
+
+#postModal .modal-body .form-control {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#postModal .modal-body .amount, #postModal .modal-body .days {
+    width: 50px;
+    border: none;
+    display: inline;
+}
+
+#postModal .modal-body .amount:focus, #postModal .modal-body .days:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(32, 168, 216, 0.25);
+    -moz-box-shadow: 0 0 0 0.2rem rgba(32, 168, 216, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(32, 168, 216, 0.25);
+}
+
+#postModal .modal-body .question .badge {
+    cursor: pointer;
+}
+
+#postModal .modal-body .buttonGroup button {
+    margin: 5%;
+    width: 40%;
+    color: white;
+}
+
+#postModal .modal-body .attach {
+    margin-top: 3%;
+    font-weight: bold
+}
+
+#postModal .modal-body .duration {
+    font-weight: bold;
+}
+

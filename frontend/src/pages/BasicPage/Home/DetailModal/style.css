@@ -1,0 +1,44 @@
+.modal-body * {
+    text-transform: unset;
+}
+
+#cardDetailModal .modal-body {
+    background-color: #f0f0f7;
+}
+
+#cardDetailModal .modal-body .close {
+    color: #525659;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px 10px;
+}
+
+#cardDetailModal .modal .modal-full-height.modal-lg {
+    width: 70% !important;
+    max-width: 70% !important;
+}
+
+#cardDetailModal .modal-body .detailTitle {
+    color: #3e4045;
+    font-size: 2em;
+    font-weight: bold;
+    width: 70%;
+    margin: 2% 5%;
+}
+#cardDetailModal .modal-body #acceptCard {
+    margin: 0;
+    width:100%;
+}
+#cardDetailModal .modal-body .acceptTitle{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #ffffff;
+}

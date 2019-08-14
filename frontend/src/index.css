@@ -1,0 +1,64 @@
+body.modal-open {
+    overflow: hidden;
+}
+
+body button.close {
+    color: black !important;
+}
+
+body [class*='MuiTooltip-popper'] {
+    z-index: 1000000 !important;
+}
+
+div[class*='Connect-FusePageSimple--header'] div[class*='MuiPaper-elevation'] {
+    height: 30px;
+}
+
+.app-header {
+    position: relative !important;
+    height: 6%;
+}
+
+#dashboard {
+    background-color: #f0f0f7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#dashboard .sidebar {
+    background-color: #43425d;
+    /*z-index: 10;*/
+    font-size: 1.2em;
+}
+
+#dashboard .sidebar .sidebar-nav, #dashboard .sidebar .nav, #dashboard .sidebar .nav-link {
+    width: 100%;
+}
+
+#dashboard .nav-link {
+    text-transform: inherit !important;
+}
+
+.main .container-fluid {
+    margin: 0 !important;
+    height: 94%;
+}
+
+@media (min-width: 992px) {
+    .sidebar-fixed .sidebar {
+        position: fixed;
+        z-index: 1019;
+        width: 350px !important;
+        height: 100vh;
+    }
+
+    .sidebar-lg-show.sidebar-fixed .main {
+        margin-left: 350px !important;
+        overflow: auto;
+    }
+}
+
+div.items-start div.flex.p-4.items-center.w-full.max-w-512.search {
+    height: 30px !important;
+}

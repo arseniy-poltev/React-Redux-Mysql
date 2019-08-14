@@ -1,0 +1,29 @@
+.close {
+    color: #525659;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px 10px;
+}
+.detailTitle {
+    color: #3e4045;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 2% 5%;
+}
+#acceptCard {
+    margin: 0;
+    width:100%;
+}
+.acceptTitle{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #ffffff;
+}

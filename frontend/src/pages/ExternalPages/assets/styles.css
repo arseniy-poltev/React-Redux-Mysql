@@ -1,0 +1,19 @@
+/*noinspection CssInvalidMediaFeature*/
+@media screen and (min-width: "768px") {
+  .respLogin {
+    /*noinspection CssInvalidPropertyValue*/
+    margin: "6rem";
+  }
+}
+.title{
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+  font-family: Consolas, sans-serif;
+}
